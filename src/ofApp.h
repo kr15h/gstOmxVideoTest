@@ -15,6 +15,6 @@ class ofApp : public ofBaseApp{
 		ofVideoPlayer video;
 	
 #ifdef TARGET_RASPBERRY_PI
-		ofxOMXPlayer videoOmx;
+		ofxOMXPlayer omxPlayer;
 #endif
 };
